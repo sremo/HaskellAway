@@ -1,0 +1,3 @@
+Stochastic Resonance (SR) is the mechanism where a nonlinear dynamical system can be driven by weak external signals enhanced by an interplay of noise and nonlinearity. Logical Stochastic Resonance
+(LSR) is the application of Stochastic Resonance to the domain of logical computation, namely the phenomenon where a nonlinear system driven by two weak signals representing logical inputs, under optimal
+noise, can yield logical outputs.Our current research focuses on extenting the concept of LSR to various systems with the purpose to obtain more complex logical behavior (XOR), more robust computation, parallel LSR and the building of systems based on this new concept.

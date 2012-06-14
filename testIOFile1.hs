@@ -1,0 +1,9 @@
+import System.IO  
+  
+main = do  
+    --handle <- openFile "quotes.txt" ReadMode  
+    --contents <- hGetContents handle  
+    contents <- readFile "quotes.txt"
+    putStr contents  
+    --hClose handle  
+    

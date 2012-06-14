@@ -1,0 +1,5 @@
+To try:
+Read a text and calculate frequency of words
+
+To try:
+To bayes statistics on texts (forecast frequencies of words based on frequencies of word in the text before)

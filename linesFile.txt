@@ -1,0 +1,6 @@
+This pattern of getting some string from the input, 
+transforming it with a function and then outputting that is so common 
+that there exists a function which makes that even easier, called interact.
+ interact takes a function of type String -> String as a parameter and returns an
+ I/O action that will take some input, run that function on it and then print out the 
+function's result. Let's modify our program to use that

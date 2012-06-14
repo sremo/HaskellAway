@@ -1,0 +1,8 @@
+Trading Platform
+
+Elements:
+- orders
+- assets
+- positions
+- closed positions
+- time series (historical prices)

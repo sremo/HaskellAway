@@ -1,0 +1,15 @@
+import Data.List
+import System.IO
+
+main = do  
+    contents <- readFile "quotes.txt"  
+    --let vec = L.map W.readDouble contents --(words contents)
+    let vec =  map string2double (words contents)--(words contents)
+    --let voc = L.map W.readDouble (modWords $ contents)
+    --L.putStrLn vec
+    print vec
+    --L.putStrLn voc
+    
+
+string2double:: String -> Double
+string2double num = read num::Double
