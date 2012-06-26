@@ -66,3 +66,5 @@ fmap f x = x >>= (\t -> return $ f t)
 
 mySequence:: (Monad m) => [m a] -> m [a]
 mySequence xs = foldr (>>=) (return []) xs
+
+ 
